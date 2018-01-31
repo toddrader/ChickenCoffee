@@ -1,0 +1,76 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.frame {
+  width: 48%;
+  margin: 0 1%;
+  float: right;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 3px auto;
+}
+
+ol.striped {
+  list-style-position: inside;
+  padding: 0;
+}
+
+ol.striped li {
+  padding: 2px .5em;
+}
+
+ol.striped li:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+input {
+  width: 3em;
+  padding: 0.45rem;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid silver;
+}
+
+button {
+  background-color: #1ea8b4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+}
+
+button:hover {
+  background-color: #188791
+}
+
+@media (max-width: 300px) {
+  .frame {
+    width: 98%;
+  }
+}
